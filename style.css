@@ -1,0 +1,50 @@
+/* style.css dosyası */
+
+body {
+    background-color: #ffc5c5;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+  }
+  
+  ul {
+    font-size: 16px;
+    color: #744242;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    list-style-type: disc;
+  }
+  
+  li {
+    padding: 5px 0;
+    list-style-type: disc;
+  }
+  .liste {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .liste:hover{
+    color: rgb(81, 0, 0);
+    cursor: pointer;
+  }
+  
+  .paragraf:nth-child(odd) {
+    background-color: #fa5252;
+  } 
